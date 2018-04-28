@@ -80,11 +80,62 @@ EnableWrittenBookFix: true
 # A multiplier of "1.0" means the amount is the same as it is on the sign
 # For more help with this, please read the Quick Reference
 pricemultipliers:
-  VIPEx:
-    iBuy: 0.7
+  Prestige-II:
+    iSell: 1.02
+  Prestige-IV:
+    iSell: 1.04
+  Prestige-V:
+    iXPBuy: .955
+  Prestige-VI:
+    iSell: 1.06
+  Prestige-VIII:
+    iSell: 1.08
+  Prestige-X:
+    iSell: 1.1
+  Prestige-XII:
+    iSell: 1.12
+  Prestige-XIII:
+    iXPBuy: .91
+  Prestige-XIV:
+    iSell: 1.14
+  Prestige-XVI:
+    iSell: 1.16
+  Prestige-XVIII:
+    iSell: 1.18
+  Prestige-XX:
     iSell: 1.2
-  BlacksmithEx:
-    Repair: 0.5
+  Prestige-XXI:
+    iXPBuy: .865
+  Prestige-XXII:
+    iSell: 1.22
+  Prestige-XXIV:
+    iSell: 1.24
+  Prestige-XXVI:
+    iSell: 1.26
+  Prestige-XXVIII:
+    iSell: 1.28
+  Prestige-XXIX:
+    iXPBuy: .82
+  Prestige-XXX:
+    iSell: 1.3
+  Prestige-XXXII:
+    iSell: 1.32
+  Prestige-XXXIV:
+    iSell: 1.34
+  Prestige-XXXVI:
+    iSell: 1.36
+  Prestige-XXXVIII:
+    iSell: 1.38
+  Prestige-XL:
+    iSell: 1.4
+  Prestige-XLII:
+    iSell: 1.42
+  Prestige-XLIV:
+    iSell: 1.44
+  Prestige-XLVI:
+    iSell: 1.46
+  Prestige-XLVIII:
+    iSell: 1.48
  
 # Below is a list of all the materials that SignShop will allow to be linked to a shop.
 # The key (stuff before the colon) can either be the material name (http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html)
