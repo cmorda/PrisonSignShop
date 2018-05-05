@@ -276,6 +276,7 @@ signs:
   iXPSell: givePlayerXP{raw},takePlayerItems,playerIsOp
   Promote: promotePlayer,takePlayerMoney,playerIsOp
   TCommand: takePlayerMoney,runTimedCommand{10},playerIsOp
+  XPBuy: takePlayerXP,givePlayerItems
  
 #----------- Sign Commands ------------------
 
