@@ -85,7 +85,7 @@ pricemultipliers:
   Prestige-IV:
     iSell: 1.04
   Prestige-V:
-    iXPBuy: .955
+    XPBuy: .955
   Prestige-VI:
     iSell: 1.06
   Prestige-VIII:
@@ -95,7 +95,7 @@ pricemultipliers:
   Prestige-XII:
     iSell: 1.12
   Prestige-XIII:
-    iXPBuy: .91
+    XPBuy: .91
   Prestige-XIV:
     iSell: 1.14
   Prestige-XVI:
@@ -105,7 +105,7 @@ pricemultipliers:
   Prestige-XX:
     iSell: 1.2
   Prestige-XXI:
-    iXPBuy: .865
+    XPBuy: .865
   Prestige-XXII:
     iSell: 1.22
   Prestige-XXIV:
@@ -115,7 +115,7 @@ pricemultipliers:
   Prestige-XXVIII:
     iSell: 1.28
   Prestige-XXIX:
-    iXPBuy: .82
+    XPBuy: .82
   Prestige-XXX:
     iSell: 1.3
   Prestige-XXXII:
@@ -350,6 +350,7 @@ messages:
     Promote: You have set up a Promote sign that promotes to the !promoteto group.
     TCommand: You have created a command sign that runs commands on this sign after
       10 seconds for !price!
+    XPBuy: You have put !items for sale at the cost of !xp XP levels!
  
 # These are given when you left click a sign
   confirm:
@@ -392,6 +393,7 @@ messages:
     iXPSell: Sell !items for !xp XP points?
     Promote: Promote from !permgroup to !promoteto?
     TCommand: Run the commands on this sign in 10 seconds for !price?
+    XPBuy: Buy !items for !xp XP levels?
  
 # These are given when you complete a transaction
   transaction:
@@ -434,6 +436,7 @@ messages:
     iXPSell: You have sold !items for !xp XP points!
     Promote: You have been promoted from !permgroup to !promoteto!
     TCommand: The commands on this sign will be run in 10 seconds!
+    XPBuy: You have bought !items for !xp XP levels!
  
 # These are given to shop owners when someone uses their shop
 # You can use empty single or double quotes to make it so SignShop does not inform the owner
@@ -478,6 +481,7 @@ messages:
     iXPSell: ''
     Promote: ''
     TCommand: ''
+    XPBuy: ''
  
 # These are used for the /signshop sign SIGNNAME command
 # New lines are automatically made at the end of sentences when printing
@@ -658,6 +662,11 @@ messages:
       written on them (without the "/"), the price goes on the 4th.  SignShop cannot
       know if the command was successfully completed, so it will take the customer's
       money even if the command doesn't work.
+    XPBuy: The Infinite XP Buy sign exchanges the customer's XP levels for items.  The
+      2nd and 4th lines of this sign can say whatever you like, the XP levels goes
+      on the 3rd line.  Punch the chest(s) using !linkmaterial containing the type
+      and amount of items you want for a single transaction.  This shop will never
+      run out of items, so the chest can be destroyed after linking.
  
 # These are notifications to give players feedback on what SignShop is doing
 errors:
